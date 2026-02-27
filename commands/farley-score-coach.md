@@ -14,18 +14,17 @@ If the user's message includes a specific topic, question, or request (e.g., `/m
 
 If the user simply typed `/msec:farley-score-coach` with no additional arguments, present the welcome menu.
 
-**Present these options to the user. Wait for their response. Do NOT start coaching until the user chooses.**
+**Use the `AskUserQuestion` tool to present the menu. Do NOT output the options as plain text.** This ensures the user gets a navigable interactive menu (arrow keys + Enter) rather than having to type a number.
 
-Ask: **"Welcome to the Farley Score Coach! What would you like to learn?"**
+Question: **"Welcome to the Farley Score Coach! What would you like to learn?"**
+Header: **"Farley Score Coach"**
 
-Options:
+Options (use these exact labels and descriptions):
 
-1. **What is the Farley Score?** -- Understand the methodology and scoring
-2. **Teach me the 8 Properties** -- Structured walkthrough with examples
-3. **Practice with examples** -- Hands-on exercises using sample tests
-4. **Let me explore** -- Open-ended coaching, you drive
-
-The user can also type something else if none of these fit.
+1. Label: **"What is the Farley Score?"** -- Description: "Understand the methodology, properties, and scoring system"
+2. Label: **"Teach me the 8 Properties"** -- Description: "Structured walkthrough with examples, easiest first"
+3. Label: **"Practice with examples"** -- Description: "Hands-on exercises using bundled sample tests"
+4. Label: **"Let me explore"** -- Description: "Open-ended coaching, you drive the conversation"
 
 ---
 

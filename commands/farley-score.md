@@ -14,18 +14,17 @@ If the user's message includes a file path, directory path, or specifies what to
 
 If the user simply typed `/msec:farley-score` with no additional arguments or context, present the welcome menu.
 
-**Present these options to the user. Wait for their response. Do NOT proceed with any analysis until the user chooses.**
+**Use the `AskUserQuestion` tool to present the menu. Do NOT output the options as plain text.** This ensures the user gets a navigable interactive menu (arrow keys + Enter) rather than having to type a number.
 
-Ask: **"Welcome to Farley Score! What would you like to do?"**
+Question: **"Welcome to Farley Score! What would you like to do?"**
+Header: **"Farley Score"**
 
-Options:
+Options (use these exact labels and descriptions):
 
-1. **What is this?** -- Learn what the Farley Score tool does
-2. **Show me a demo** -- See a complete sample report instantly
-3. **Analyse my tests** -- Run a full test quality analysis on your project
-4. **Coach me** -- Switch to interactive coaching mode
-
-The user can also type something else if none of these fit.
+1. Label: **"What is this?"** -- Description: "Learn what the Farley Score tool does and how it works"
+2. Label: **"Show me a demo"** -- Description: "See a complete sample report instantly from bundled example tests"
+3. Label: **"Analyse my tests"** -- Description: "Run a full test quality analysis on your project"
+4. Label: **"Coach me"** -- Description: "Switch to interactive coaching mode with Socratic questioning"
 
 ---
 
