@@ -1,0 +1,14 @@
+{
+  "name": "farley-score-plugin",
+  "owner": {
+    "name": "Bernard McCarty"
+  },
+  "plugins": [
+    {
+      "name": "farley-score-plugin",
+      "source": "./",
+      "description": "Test quality assessment using Dave Farley's 8 Properties of Good Tests. Includes autonomous review (/msec:farley-score) and interactive coaching (/msec:farley-score-coach).",
+      "version": "1.0.0"
+    }
+  ]
+}

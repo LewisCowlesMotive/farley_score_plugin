@@ -1,0 +1,25 @@
+{
+  "name": "farley-score-plugin",
+  "version": "1.0.0",
+  "description": "Test quality assessment using Dave Farley's 8 Properties of Good Tests",
+  "author": {
+    "name": "Bernard McCarty",
+    "email": "bernard@modernsoftwareengineering.community"
+  },
+  "homepage": "https://github.com/bernardSolar/farley_score_plugin",
+  "repository": "https://github.com/bernardSolar/farley_score_plugin",
+  "license": "MIT",
+  "keywords": [
+    "test-quality",
+    "farley-score",
+    "farley-index",
+    "dave-farley",
+    "test-design",
+    "tautology-theatre",
+    "mock-anti-patterns",
+    "testing",
+    "software-engineering",
+    "coaching"
+  ],
+  "commands": ["./commands/"]
+}
